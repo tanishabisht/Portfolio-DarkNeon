@@ -19,7 +19,7 @@ const Projects = () => {
                 <div className='col'>
                     <HeaderText>PROJECTS</HeaderText>
                     <div className='row'>
-                        {projValues.map(({name, duration, content, skillsArr}) => <div className='col col-xs-12 col-sm-12 col-md-6'><ProjCard name={name} duration={duration} content={content}  skillsArr={skillsArr} /></div> )}                    
+                        {projValues.map(({name, duration, content, skillsArr}) => <div className='col-xs-12 col-sm-12 col-md-6'><ProjCard name={name} duration={duration} content={content}  skillsArr={skillsArr} /></div> )}                    
                     </div>
                 </div>
                 <div className='col-1'></div>

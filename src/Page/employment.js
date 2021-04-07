@@ -13,7 +13,7 @@ const Employment = () => {
 
 
     return (
-        <div className='container' id='employment'>
+        <div className='container emp_page_container' id='employment'>
             <div className='row'>
                 <div className='col col-2'></div>
                 <div className='col col-8'>
