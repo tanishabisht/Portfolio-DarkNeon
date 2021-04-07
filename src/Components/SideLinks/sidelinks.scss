@@ -1,0 +1,43 @@
+.sidelinks_container {
+    position: absolute;
+    width: 100px;
+    display: inline-flex;
+    flex-direction: column;
+    bottom: 0px;
+    align-items: center;
+
+    .sidelinks_item {
+        margin: 16px;
+        &:hover{
+            margin: 8px;
+            background-color: #0c0c0c;
+            border-radius: 5px;
+            padding: 8px;
+        }
+    }
+}
+
+
+
+
+.sidemail_container {
+    position: absolute;
+    top: 385px;
+    right: 20px;
+    width: 60px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+    .mailVertical {
+        writing-mode: vertical-rl;
+        color: #e2e2e2;
+        text-decoration: none;
+        font-family: 'Roboto Mono', monospace;
+        margin-bottom: 15px;
+        &:hover{
+            color: #64FFDA;
+        }
+    }
+
+}

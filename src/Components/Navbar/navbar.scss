@@ -1,0 +1,10 @@
+.secLink {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #e2e2e2;
+    &:hover{
+        color: #64FFDA;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

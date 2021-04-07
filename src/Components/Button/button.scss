@@ -1,0 +1,28 @@
+.lightBtn {
+    border: 2px solid #64FFDA;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: #BEFFF0;
+    font-weight: 300;
+    &:active{
+        background-color: #64FFDA;
+        color: #282828;
+    }
+}
+
+.skillsBtn {
+    font-size: 0.8em;
+    font-family: 'Roboto Mono', monospace;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    background-color: #1c1c1c;
+    padding: 3px 15px;
+    color: #e2e2e2;
+    font-weight: 300;
+    &:active{
+        background-color: #e2e2e2;
+        color: #1c1c1c;
+    }
+    margin: 4px 4px;
+}

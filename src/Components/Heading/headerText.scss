@@ -1,0 +1,38 @@
+.hero_header {
+    color: #282828;
+    text-shadow: 0px 1px 10px rgba(100, 255, 219, 0.2);
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #64FFDA;
+}
+
+.main_header {
+    color: #282828;
+    text-shadow: 0px 1px 10px rgba(100, 255, 219, 0.2);
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #64FFDA;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 60px;
+}
+
+
+.main_header_underline {
+    // display: inline;
+    color: #444;
+    text-shadow: 0px 1px 10px rgba(100, 255, 219, 0.2);
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #64FFDA;
+    padding-bottom: 8px;
+    position: relative;
+    text-align: center;
+    &::after{
+        position: absolute;
+        border-bottom: 1.6px solid #2BB997;
+        content: '';
+        bottom: -4px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 70%;
+    }
+}
