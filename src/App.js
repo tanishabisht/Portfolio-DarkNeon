@@ -10,8 +10,8 @@ function App() {
       <Employment/>
       <Projects/>
       <Footer/>
-      <SideLinks fb='#' insta='#' linkedIn='#' medium='#' twitter='#' utube='#' />
-      <SideMail mail='eeshandutta@gmail.com' />
+      <SideLinks fb='https://www.facebook.com/eeshandutta.great' insta='https://www.instagram.com/eeshan_dutta/' linkedIn='https://www.linkedin.com/in/eeshan-dutta-03508a1b5/' github='https://github.com/EeshanDutta007' />
+      <SideMail mail='mailto:eeshandutta21@gmail.com' />
     </div>
   )
 }

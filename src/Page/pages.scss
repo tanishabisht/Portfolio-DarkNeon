@@ -22,3 +22,12 @@
     margin-top: 200px;
     padding-bottom: 250px;
 }
+
+.home_linkBtn {
+    text-decoration: none;
+    color: #fff;
+    &:hover{
+        text-decoration: none;
+        color: #eee;
+    }
+}
