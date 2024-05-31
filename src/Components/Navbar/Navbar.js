@@ -1,15 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Navbar, Nav } from 'react-bootstrap'
 import { Link } from 'react-scroll'
+import { nameCapitals } from '../../Content/variable'
 import './navbar.scss'
-
-
-
 
 const NavbarComponent = () => {
   return (
     <Navbar className='navbar_container' collapseOnSelect expand="lg" variant="dark">
-        <Navbar.Brand href="#">EESHAN DUTTA</Navbar.Brand>
+        <Navbar.Brand href="#">{nameCapitals}</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
@@ -20,12 +18,5 @@ const NavbarComponent = () => {
     </Navbar>
   )
 }
-
-
-
-
-        
-
-
 
 export default NavbarComponent

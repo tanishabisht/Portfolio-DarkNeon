@@ -9,6 +9,12 @@
         background-color: #64FFDA;
         color: #282828;
     }
+    &:hover {
+        background-color: #64FFDA;
+        & a {
+            color: #282828 !important;
+        }
+    }
 }
 
 .skillsBtn {

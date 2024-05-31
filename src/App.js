@@ -1,6 +1,7 @@
 import './App.css'
 import {Navbar, Footer, SideLinks, SideMail} from './Components'
 import {Hero, Employment, Projects} from './Page'
+import { fbLink, instaLink, linkedInLink, gitHubLink, emailAddress } from './Content/variable'
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
       <Employment/>
       <Projects/>
       <Footer/>
-      <SideLinks fb='https://www.facebook.com/eeshandutta.great' insta='https://www.instagram.com/eeshan_dutta/' linkedIn='https://www.linkedin.com/in/eeshan-dutta-03508a1b5/' github='https://github.com/EeshanDutta007' />
-      <SideMail mail='mailto:eeshandutta21@gmail.com' />
+      <SideLinks fb={fbLink} insta={instaLink} linkedIn={linkedInLink} github={gitHubLink} />
+      <SideMail mail={`mailto:${emailAddress}`} />
     </div>
   )
 }
