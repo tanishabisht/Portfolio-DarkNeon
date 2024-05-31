@@ -1,20 +1,21 @@
 {
-  "name": "eeshani_portfolio",
-  "homepage": "https://tanishabisht.github.io/Eeshan-Portfolio",
+  "name": "portfolio_dark_and_neon_theme",
+  "homepage": "https://tanishabisht.github.io/portfolio-template-1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.10",
-    "@testing-library/react": "^11.2.6",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "bootstrap": "^4.6.0",
-    "node-sass": "^5.0.0",
+    "bootstrap": "^5.3.3",
+    "gh-pages": "^6.1.1",
     "react": "^17.0.2",
-    "react-bootstrap": "^1.5.2",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "react-scroll": "^1.8.2",
-    "web-vitals": "^1.1.1"
+    "react-scripts": "^4.0.3",
+    "react-scroll": "^1.9.0",
+    "sass": "^1.77.4",
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "predeploy": "npm run build",
