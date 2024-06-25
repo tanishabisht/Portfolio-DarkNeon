@@ -1,5 +1,4 @@
 # Dark and neon themed personal website
-Link to the portfolio: https://tanishabisht.github.io/portfolio-template-1/
 
 ![Portfolio template - dark and neon theme](demo/demo.gif)
 
